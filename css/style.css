@@ -1,0 +1,141 @@
+/* GLOBAL  */
+.clear{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* Header css */
+.header{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    color: #e90000;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+.header p{
+    color: white;
+    font-size: 15px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    padding-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #4cc0f8;
+}
+nav a.active {
+    color:#e90000;
+    font-weight: 700;
+}
+
+/* CAROUSEL */
+.carousel{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #2c2c2c;
+    text-align: right;
+}
+.carousel__title{
+    margin: 10px 0;
+}
+.carousel__title h2{
+    display: inline;
+    background-color: #ffffff80;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.carousel p{
+    display: inline;
+    background-color: #ffffff80;
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/* INTRODUCTION */
+.intro__about{
+    background-color: #4cc0f8;
+    color: white;
+    padding: 50px 0;
+}
+.intro h2{
+    color:black;
+    display: inline;
+    background-color: #ffffff80;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.intro__welcome{
+    text-align: center;
+    padding: 50px 0;
+}
+.intro__img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px 0;
+}
+.intro__img img{
+    width: 100%;
+}
+.intro__item{
+    text-align: left;
+    padding: 20px 40px;
+    position: relative;
+}
+.intro__item h3{
+    color: red;
+}
+.intro__item i{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    color: #4cc0f8;
+    font-size: 30px;
+}
+/* WORKS */
+.works{
+    padding: 50px 0;
+    text-align: center;
+}
+.works h2{
+    color:black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+.works__img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.works__img img{
+    width: 100%;
+    display: block;
+}
